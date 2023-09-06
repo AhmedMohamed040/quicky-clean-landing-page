@@ -12,7 +12,7 @@ module.exports = {
       },
     },
     fontFamily: {
-      sans: ["Inter", ...defaultTheme.fontFamily.sans],
+      plex:  'IBMPlexSansArabic, cursive' ,
       stock: [defaultTheme.fontFamily.sans],
     },
   },
