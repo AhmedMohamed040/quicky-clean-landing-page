@@ -18,23 +18,25 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Symlink - Landing Page</title>
+        <title>Quicky - Landing Page</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;500;600&display=swap" rel="stylesheet" />
         <meta
           name="description"
           content="Symlink is a creative agency specializing in web, branding and digital marketing."
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href={'../css/images/logo.png'} />
       </Head>
 
-      <div className="bg-[#6758E0]">
-        <Navbar />
+      <div className="bg-gradient-to-b from-[#FFD777] via-[#FFD777] to-orange-50 ">
         <Hero />
       </div>
 
       <SectionTitle
         pretitle="a creative agency specializing in web, branding and digital marketing"
         title="Providing high quality design, web development, and marketing services that drive results">
-        We design and develop highly curated web and web3 platforms for a myriad of industries. Our branding expertise allows us to create visually stunning, unique and coherent campaigns for brands to build and grow on solid foundations.
+        !إحجز الأن، واجعل سيارتك تتألق
       </SectionTitle>
       <Services/>
 
