@@ -5,20 +5,18 @@ import Logo from "../css/svg/logo";
 import Link from "next/link";
 import AppleIcon from "../css/svg/appleIcon";
 import {GetItOn, GooglePlayText, GooglePlayIcon} from "../css/svg/googlePlayIcon";
-import Iphone from "../public/img/img/iphone.png";
-import IphoneL from "../public/img/img/iphoneL.png";
-
+import PhoneGroup from "../css/images/phoneGroup.png";
 
 const Hero = () => {
   return (
     <>
-      <Container className="flex flex-wrap overflow-hidden ">
-        <div className="flex flex-col gap-10 pt-14 items-center justify-center w-full lg:w-2/2">
+      <Container className="flex flex-wrap  pb-0">
+        <div className="flex flex-col gap-10 pt-14 items-center text-black	 justify-center w-full lg:w-2/2">
           <div class="grid grid-cols-1 mb-14  px-8 relative">
             <Logo />
           </div>
           <div class="grid grid-cols-1  px-8 relative text-center	">
-            <h1 class=" text-7xl font-semibold pb-8">
+            <h1 class=" text-5xl font-semibold pb-8">
               !إحجز الأن، واجعل سيارتك تتألق
             </h1>
             <h6 class=" text-lg font-bold pb-2">
@@ -26,7 +24,7 @@ const Hero = () => {
             </h6>
             <h6 class=" text-lg font-bold pb-2">مع باقات تلبي احتياجاتك.</h6>
           </div>
-          <div class=" gap-4 relative text-center	 flex flex-row items-center mb-[-170px]">
+          <div class=" gap-4 relative text-center	 flex flex-row items-center">
          
              
           <Link href="/" className=" p-2.5 font-bold text-black bg-[#0d0c0d] rounded-md  gap-3 flex flex-row"> 
@@ -51,10 +49,10 @@ const Hero = () => {
             </span>
              </Link>
           </div>
-          <div class="grid grid-cols-2 mb-14  text-center  relative">
+          <div class="grid grid-cols-1  text-center  relative">
 
 
-          <div class="  relative text-center	top-[200px] overflow-hidden flex flex-row items-center ">
+          <div class="  sm:min-h-[300px] xs:min-h-[200px]   text-center	  flex flex-row items-center ">
             
        {/*    <Box sx={{
                 mt: {
@@ -82,55 +80,30 @@ const Hero = () => {
                 // Set the desired height
                 />
               </Box> */}
-          <Image
-          className="object-none"
-              src={Iphone.src}
-              width="301"
-              height="582"
-              sizes="100%"
-              quality={100}
-           
-              alt="Benefits"
-            />
+                <Image
+                  quality={100}
+                  width={0}
+                  height={0}
+                  sizes="100%"
+                  src={PhoneGroup.src}
+                  alt="phone group"
+                  style={{
+                    zIndex: '1',
+                    width: 'fit-content',
+                    maxWidth: 600,
+                    minHeight: 150,
+                    height: 'auto',
+                    objectFit: "contain",
+                    backgroundRepeat: "repeat",
+                  }}
+                  // Set the desired height
+                />
             
-
-          </div>
-          
-          <div class="  relative  text-center	top-[200px] overflow-hidden flex flex-row items-center ">
-            
-     
-       
-          <Image
-          className="object-none"
-              src={Iphone.src}
-              width="301"
-              height="582"
-              sizes="100%"
-              quality={100}
-           
-              alt="Benefits"
-            />
-            
-
+             
           </div>
           
           
-          <div class="   absolute text-center	top-[180px] justify-center mx-[150px] overflow-hidden flex flex-row items-center ">
-            
-      
-          <Image
-          className="object-none"
-              src={Iphone.src}
-              width="301"
-              height="582"
-              sizes="100%"
-              quality={100}
-           
-              alt="Benefits"
-            />
-            
-
-          </div>
+        
           
             </div>
 
