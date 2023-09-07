@@ -34,13 +34,12 @@ const Home = () => {
       </div>
 
       <SectionTitle
-        pretitle="a creative agency specializing in web, branding and digital marketing"
-        title="Providing high quality design, web development, and marketing services that drive results">
-        !إحجز الأن، واجعل سيارتك تتألق
+        title={`، لا تخاف على سيارتك`}>
+       انشئ تطبيق كويكي كلين على ايدي شباب سعوديين, وهو تطبيق متخصص في غسيل السيارات وتنظيفها وتعقيمها في المكان والوقت المناسب للعميل, كما نتمتع بفريق عمل محترف مما يضمن تقديم خدمة ممتازة ودقة عالية.
       </SectionTitle>
       <Services/>
 
-      <div className="flex flex-col items-center justify-center py-10 bg-[#101840] ">
+      <div className="flex flex-col items-center justify-center py-10 ">
         <Container>
           <div className="flex flex-col justify-center">
             <div className="text-xl text-center text-white mb-4">

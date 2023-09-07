@@ -15,6 +15,6 @@
   body {
     font-family: 'IBM Plex Sans Arabic', sans-serif !important;
     @apply dark:bg-white;
-    background: white;
+    background: #fff7ed;
     }
 }
