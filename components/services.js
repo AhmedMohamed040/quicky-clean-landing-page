@@ -15,7 +15,7 @@ const Services = () => {
             <h5 className="bg-[#FFCC66] px-3 py-1 text-white">. الخدمة و الجودة و الوقت </h5>
             <h3 className="font-semibold	text-xl mt-3"> تعتزم كويكي كلين بتقديم أفضل المنتجات العالمية والأدوات ذات الجودة العالية لتكون الخيار الاول دائما للعملاء </h3>
             <div className="flex flex-row justify-between mt-14 pt-2 gap-10 items-center">
-              <p className="text-sm">
+              <p className="text-sm  text-gray-500 font-semibold">
               فرق من الخبراء المهتمين بتقديم أعلى مستويات الجودة والعناية لسيارتك، نحن هنا لضمان أفضل نتائج
               </p>
               <span className="mx-0 px-0">
@@ -23,7 +23,7 @@ const Services = () => {
               </span>
             </div>
             <div className="flex flex-row justify-between mt-3 pt-2 gap-10 items-center">
-              <p className="text-sm">
+              <p className="text-sm  text-gray-500 font-semibold">
               اختر من بين باقات الغسيل المصممة بعناية لتلبية متطلبات ميزانيتك وتفضيلاتك
               </p>
               <span className="mx-0 px-0">
@@ -31,7 +31,7 @@ const Services = () => {
               </span>
             </div>
             <div className="flex flex-row justify-between mt-3 pt-2 gap-10 items-center">
-              <p className="text-sm">
+              <p className="text-sm  text-gray-500 font-semibold">
               نقدم خدمة غسيل سيارتك بالمكان والوقت الذي تحدده. لن تضطر بعد الآن للانتظار في طوابير طويلة
               </p>
               <span className="mx-0 px-0">
