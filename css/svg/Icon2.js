@@ -1,3 +1,7 @@
+
+const Icon2 = ({ props }) => (
+ 
+
 <svg width="89" height="88" viewBox="0 0 89 88" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_d_3188_1429)">
 <rect x="8.45776" y="4" width="72" height="72" rx="24" fill="white" shape-rendering="crispEdges"/>
@@ -16,3 +20,8 @@
 </filter>
 </defs>
 </svg>
+
+
+  );
+
+ export default Icon2
