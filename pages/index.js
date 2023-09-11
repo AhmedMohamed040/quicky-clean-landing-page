@@ -12,6 +12,7 @@ import Testimonials from "../components/testimonials";
 import Cta from "../components/cta";
 import Faq from "../components/faq";
 import PopupWidget from "../components/popupWidget";
+import BookingMethods from "../components/BookingMethods";
 import Container from "../components/container";
 
 const Home = () => {
@@ -40,32 +41,7 @@ const Home = () => {
       <Services/>
 
       <div className="flex flex-col items-center justify-center py-10 ">
-        <Container>
-          <div className="flex flex-col justify-center">
-            <div className="text-xl text-center text-white mb-4">
-              Trusted by brands of all shapes and sizes
-
-            </div>
-
-            <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
-              <div className="pt-2 text-gray-400 ">
-                <AmazonLogo />
-              </div>
-              <div className="text-gray-400 ">
-                <VerizonLogo />
-              </div>
-              <div className="text-gray-400 ">
-                <MicrosoftLogo />
-              </div>
-              <div className="pt-1 text-gray-400 ">
-                <NetflixLogo />
-              </div>
-              <div className="pt-2 text-gray-400 ">
-                <SonyLogo />
-              </div>
-            </div>
-          </div>
-        </Container>
+      <BookingMethods />
         
       </div>
       {/* <Benefits data={benefitOne} /> */}
