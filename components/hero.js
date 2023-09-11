@@ -105,7 +105,7 @@ const Hero = () => {
           
         
           
-            </div>
+          </div>
 
         </div>
       </Container>
