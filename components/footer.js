@@ -35,20 +35,6 @@ export default function Footer() {
               Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim laborenon excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
             </div>
 
-            {/* <div className="mt-5"> */}
-            {/*   <a */}
-            {/*     href="https://vercel.com/?utm_source=web3templates&utm_campaign=oss" */}
-            {/*     target="_blank" */}
-            {/*     rel="noopener" */}
-            {/*     className="relative block w-44"> */}
-            {/*     <Image */}
-            {/*       src="/img/vercel.svg" */}
-            {/*       alt="Powered by Vercel" */}
-            {/*       width="212" */}
-            {/*       height="44" */}
-            {/*     /> */}
-            {/*   </a> */}
-            {/* </div> */}
           </div>
 
           <div>
@@ -103,23 +89,6 @@ export default function Footer() {
             </div>
           </div>
         </div>
-
-        {/* <div className="my-10 text-sm text-center text-gray-600 "> */}
-        {/*   Copyright © {new Date().getFullYear()}. Made with ♥ by{" "} */}
-        {/*   <a */}
-        {/*     href="https://web3templates.com/" */}
-        {/*     target="_blank" */}
-        {/*     rel="noopener"> */}
-        {/*     Web3Templates. */}
-        {/*   </a>{" "} */}
-        {/*   Illustrations from{" "} */}
-        {/*   <a */}
-        {/*     href="https://www.glazestock.com/" */}
-        {/*     target="_blank" */}
-        {/*     rel="noopener "> */}
-        {/*     Glazestock */}
-        {/*   </a> */}
-        {/* </div> */}
       </Container>
       {/* Do not remove this */}
       <Backlink />
