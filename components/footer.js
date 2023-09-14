@@ -14,7 +14,22 @@ const Footer = () => {
     <div className=" pt-14  gap-4 grid grid-cols-2 text-center w-full">
    
           <div className="flex flex-row gap- justify-start">
+            <p>
+
           بسيارتك.
+            </p>
+            <p>
+
+          بسيارتك.
+            </p>
+            <p>
+
+          بسيارتك.
+            </p>
+            <p>
+
+          بسيارتك.
+            </p>
           </div>
           <div className="grid gap-9 justify-items-end text-right  ">
             <Logo className=" max-h-10"/>
