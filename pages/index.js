@@ -29,10 +29,8 @@ const Home = () => {
         />
         <link rel="icon" href="/logo.svg" />
       </Head>
-    
       <div className="bg-gradient-to-b from-[#FFD777] via-[#FFD777] to-orange-50 ">
       <Hero />
-
       </div>
 
       <SectionTitle
