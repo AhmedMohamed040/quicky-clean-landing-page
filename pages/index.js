@@ -31,7 +31,8 @@ const Home = () => {
       </Head>
     
       <div className="bg-gradient-to-b from-[#FFD777] via-[#FFD777] to-orange-50 ">
-        <Hero />
+      <Hero />
+
       </div>
 
       <SectionTitle
