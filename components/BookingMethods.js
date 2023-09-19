@@ -17,7 +17,7 @@ const BookingMethods = () => {
             <span className="max-w-[50px] max-h-2 bg-[#FFCC66] rounded py-[3px] px-6 md:py-1 md:px-8"></span>
           </div>
           <div className="flex justify-center flex-col flex-nowrap sm:flex-row items-center gap-0 md:gap-14 ">
-            <div className="relative block mt-0  ">
+            <div className=" block mt-0  ">
               <Image
                 quality={100}
                 width={0}
@@ -36,7 +36,7 @@ const BookingMethods = () => {
               />
             </div>
 
-            <div className="relative block mt-0  ">
+            <div className=" block mt-0  ">
               <Image
                 quality={100}
                 width={0}
@@ -55,7 +55,7 @@ const BookingMethods = () => {
                 // Set the desired height
               />
             </div>
-            <div className="relative block mt-0  ">
+            <div className=" block mt-0  ">
               <Image
                 quality={100}
                 width={0}
@@ -73,7 +73,7 @@ const BookingMethods = () => {
                 // Set the desired height
               />
             </div>
-            <div className="relative block mt-0   ">
+            <div className=" block mt-0   ">
               <Image
                 quality={100}
                 width={0}
