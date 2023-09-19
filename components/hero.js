@@ -73,9 +73,8 @@ const Hero = () => {
                 alt="phone group"
                 style={{
                   zIndex: "1",
-                  height:"auto",
                   width: "100%",
-                  minWidth: '250px',
+                 
                   maxWidth: 800,
                   minHeight: 150,
                   height: "auto",
