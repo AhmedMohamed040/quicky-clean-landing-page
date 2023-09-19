@@ -29,10 +29,8 @@ const BookingMethods = () => {
                   zIndex: "1",
                   width: "100%",
                   maxWidth: 600,
-                  minHeight: 500,
-                  height: "auto",
+                  minHeight: 600,
                   objectFit: "contain",
-                  backgroundRepeat: "repeat",
                 }}
                 // Set the desired height
               />
@@ -50,8 +48,7 @@ const BookingMethods = () => {
                   zIndex: "1",
                   width: "100%",
                   maxWidth: 600,
-                  minHeight: 500,
-                  height: "auto",
+                  minHeight: 600,
                   objectFit: "contain",
                   backgroundRepeat: "repeat",
                 }}
@@ -70,10 +67,8 @@ const BookingMethods = () => {
                   zIndex: "1",
                   width: "100%",
                   maxWidth: 600,
-                  minHeight: 500,
-                  height: "auto",
+                  minHeight: 600,
                   objectFit: "contain",
-                  backgroundRepeat: "repeat",
                 }}
                 // Set the desired height
               />
@@ -90,10 +85,8 @@ const BookingMethods = () => {
                   zIndex: "1",
                   width: "100%",
                   maxWidth: 600,
-                  minHeight: 500,
-                  height: "auto",
+                  minHeight: 600,
                   objectFit: "contain",
-                  backgroundRepeat: "repeat",
                 }}
                 // Set the desired height
               />
