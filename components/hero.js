@@ -4,7 +4,7 @@ import heroImg from "../public/img/hero.png";
 import Logo from "../css/svg/logo";
 import Link from "next/link";
 import AppleIcon from "../css/svg/appleIcon";
-import PhoneGroup from "../css/images/hero-imgx4.png";
+import PhoneGroup from "../css/images/hero-img.png";
 import GooglePlayIcon from "../css/svg/googlePlay";
 
 const Hero = () => {
@@ -54,7 +54,7 @@ const Hero = () => {
                   quality={100}
                   fill
                   sizes="100%"
-                                    src={PhoneGroup.src}
+                  src={PhoneGroup.src}
                   alt="Description of the SVG"
                   style={{
                     zIndex: '1',
@@ -73,7 +73,9 @@ const Hero = () => {
                 alt="phone group"
                 style={{
                   zIndex: "1",
+                  height:"auto",
                   width: "100%",
+                  minWidth: '250px',
                   maxWidth: 800,
                   minHeight: 150,
                   height: "auto",
