@@ -33,7 +33,7 @@ const Footer = () => {
           </div>
           <div className="grid gap-5 justify-items-end text-right  "></div>
 
-          <div className="grid gap-5 mt-5 md:mt-0 justify-items-center md:justify-items-start text-center md:text-right ">
+          <div className="grid gap-5 justify-items-center md:justify-items-start text-center md:text-right ">
             <h2 className="text-lg	 font-bold  p-0 m-0 text-gray-800 lg:leading-tight md:text-xl ">
               الدعم والمساعدة
             </h2>
