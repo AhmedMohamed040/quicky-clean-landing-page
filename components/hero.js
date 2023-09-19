@@ -4,7 +4,7 @@ import heroImg from "../public/img/hero.png";
 import Logo from "../css/svg/logo";
 import Link from "next/link";
 import AppleIcon from "../css/svg/appleIcon";
-import PhoneGroup from "../css/images/phoneGroup.png";
+import PhoneGroup from "../css/images/hero-imgx4.png";
 import GooglePlayIcon from "../css/svg/googlePlay";
 
 const Hero = () => {
@@ -74,7 +74,7 @@ const Hero = () => {
                 style={{
                   zIndex: "1",
                   width: "100%",
-                  maxWidth: 600,
+                  maxWidth: 800,
                   minHeight: 150,
                   height: "auto",
                   objectFit: "contain",
