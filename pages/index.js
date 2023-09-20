@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Quicky - Landing Page</title>
+        <title>Quicky clean</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -41,7 +41,7 @@ const Home = () => {
       </SectionTitle>
       <Services/>
 
-      <div className="flex flex-col items-center justify-center py-10 ">
+      <div className="flex flex-col items-center justify-center py-5">
       <BookingMethods />
         
       </div>
