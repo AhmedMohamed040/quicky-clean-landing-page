@@ -17,8 +17,8 @@ const Hero = () => {
           </div>
           <div class="grid grid-cols-1  px-8 relative text-center	">
             <h1 className="max-w-3xl mt-3 text-2xl  sm:text-3xl font-bold leading-snug tracking-tight text-black lg:leading-tight md:text-4xl ">
-              !إحجز الأن، واجعل سيارتك تتألق
-            </h1>
+            إحجز الأن، واجعل سيارتك تتألق!
+                        </h1>
             <h5 className="max-w-2xl leading-7 py-2 md:py-4  text-sm lg:leading-7 xl:leading-7  text-black  md:text-sm xl:text-md ">
               إستمتع بتجربة غسيل سيارات فريدة, عناية سيارتك سهلة
               <br className="sm:none"></br>ومريحة مع باقات تلبي احتياجاتك.
