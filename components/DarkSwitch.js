@@ -5,7 +5,7 @@ const ThemeChanger = () => {
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme("light"); // default to light mode
 
-  // When mounted on client, now we 
+  // When mounted on client
   useEffect(() => setMounted(true), []);
 
   if (!mounted) return null;
