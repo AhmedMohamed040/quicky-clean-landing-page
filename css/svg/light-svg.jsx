@@ -1,7 +1,7 @@
 import * as React from "react";
 const LightSVG = (props) => (
   <svg
-    width={1040}
+    width={1030}
     height={413}
     viewBox="0 0 1040 413"
     fill="none"
