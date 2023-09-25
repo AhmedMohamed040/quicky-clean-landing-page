@@ -11,7 +11,7 @@ const Services = () => {
     
         <div  class="grid px-5 lg:px-20 md:grid-cols-2  sm:grid-cols-1 gap-0  ">
        
-          <div className="flex flex-wrap justify-start text-right px-0 ">
+          <div className="flex flex-wrap justify-center md:justify-start md:text-right text-center px-0 ">
             <h5 className="bg-[#FFCC66] px-3 py-1 text-white">
             الخدمة و الجودة و الوقت.
             </h5>
@@ -19,36 +19,36 @@ const Services = () => {
 
             تعتزم كويكي كلين بتقديم أفضل المنتجات العالمية والأدوات ذات الجودة العالية لتكون الخيار الاول دائما للعملاء.            
             </h3>
-            <div className="max-w-sm flex flex-row justify-between mt-14 pt-2 gap-3 items-center">
+            <div className="max-w-sm flex flex-col md:flex-row justify-between mt-14 pt-2 gap-3 items-center">
             <span className="mx-0 px-0">
                 <Icon1 width={'65'} />
               </span>
-              <p className="max-w-2xl py-4 text-xs   text-gray-500 lg:text-sm xl:text-sm ">
+              <p className="max-w-2xl py-4 text-sm   text-gray-500 lg:text-base xl:text-base ">
               فرق من الخبراء المهتمين بتقديم أعلى مستويات الجودة والعناية لسيارتك، نحن هنا لضمان أفضل نتائج.
               </p>
               
             </div>
-            <div className="max-w-sm flex flex-row justify-between mt-3 pt-2 gap-3 items-center">
+            <div className="max-w-sm flex flex-col md:flex-row justify-between mt-3 pt-2 gap-3 items-center">
             <span className="mx-0 px-0">
                 <Icon2 width="65" />
               </span>
-              <p className="max-w-2xl py-4 text-xs   text-gray-500 lg:text-sm xl:text-sm ">
+              <p className="max-w-2xl py-4 text-sm   text-gray-500 lg:text-base xl:text-base ">
               اختر من بين باقات الغسيل المصممة بعناية لتلبية متطلبات ميزانيتك وتفضيلاتك.
               </p>
          
             </div>
-            <div className="max-w-sm flex flex-row justify-between mt-3 pt-2 gap-3 items-center">
+            <div className="max-w-sm flex flex-col md:flex-row justify-between mt-3 pt-2 gap-3 items-center">
             <span className="mx-0 px-0">
                 <Icon3 width="65" />
               </span>
-              <p className="max-w-2xl py-4 text-xs  text-gray-500 lg:text-sm xl:text-sm ">
+              <p className="max-w-2xl py-4 text-sm  text-gray-500 lg:text-base xl:text-base ">
               نقدم خدمة غسيل سيارتك بالمكان والوقت الذي تحدده. لن تضطر بعد الآن للانتظار في طوابير طويلة.
               </p>
            
             </div>
           </div>
           <div className="flex flex-wrap justify-center ">
-            <div className="relative sm:min-h-[300px] mt-14">
+            <div className="relative sm:min-h-[300px] md:block hidden mt-14">
               <Image
                 quality={100}
                 width={0}
@@ -59,8 +59,8 @@ const Services = () => {
                 style={{
                   zIndex: "1",
                   width: "100%",
-                  maxWidth: 600,
-                  minHeight: 250,
+                  maxWidth: 400,
+                  minHeight: 150,
                   height: "auto",
                   objectFit: "contain",
                   backgroundRepeat: "repeat",

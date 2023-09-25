@@ -75,10 +75,9 @@ const Hero = () => {
                   zIndex: "1",
                   width: "100%",
                  
-                  maxWidth: 800,
+                  maxWidth: 1020,
                   minHeight: 150,
-                  height: "auto",
-                  objectFit: "contain",
+                  objectFit: "cover",
                 }}
                 // Set the desired height
               />
