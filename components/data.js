@@ -17,7 +17,7 @@ const benefitOne = {
   bullets: [
     {
       title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      desc: "Then explain  the first point breifly in one or two lines.",
       icon: <FaceSmileIcon />,
     },
     {
