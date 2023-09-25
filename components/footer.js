@@ -16,7 +16,7 @@ const Footer = () => {
       <Container className=" px-20">
         <div className=" pt-14 gap-5  sm:gap-0 grid grid-cols-1 md:grid-cols-3 text-center w-full">
       
-          <div className="grid gap-5 justify-items-center md:justify-items-start text-center md:text-right ">
+          <div className="hidden md:grid gap-5 justify-items-center md:justify-items-start text-center md:text-right ">
             <Logo  width={'125'}  />
             <p className="text-sm  text-gray-500 font-semibold line-clamp-6  max-w-[300px] break-words	">
               لإننا نهتم براحتك وأمان سيارتك.، قُمنا بتطوير نظام آمن وموثوق
