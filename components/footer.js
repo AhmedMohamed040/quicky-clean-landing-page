@@ -53,24 +53,26 @@ const Footer = () => {
               الدعم والمساعدة
             </h2>
         
-            <div className="flex items-center justify-center">
+              <Link className="flex items-center justify-center" href="https://web.whatsapp.com/" target="_blank" >
+
               <Whatsapp />
               <h2 className="text-sm px-2 text-gray-500 font-semibold  p-0 m-0 lg:leading-tight md:text-md ">
               أبدء محادثة
               </h2>
-            </div>
-            <div className="flex items-center justify-center">
+              </Link>
+            <Link className="flex items-center justify-center" href="tel:+96655584652" target="_blank">
+
               <Call />
               <h2 className="text-sm px-2 text-gray-500 font-semibold  p-0 m-0 lg:leading-tight md:text-md ">
               5558652 966+ 
               </h2>
-            </div>
-            <div className="flex items-center justify-center">
+              </Link>
+            <a className="flex items-center justify-center" href="mailto:admin@quickyclean.com.sa" target="_blank">
               <Mail />
               <h2 className="text-sm px-2 text-gray-500 font-semibold  p-0 m-0 lg:leading-tight md:text-md ">
               admin@quickyclean.com.sa
               </h2>
-            </div>
+              </a>
           </div>
         </div>
           <div className=" pt-14 gap-5  sm:gap-0 grid grid-cols-1 text-center w-full">
