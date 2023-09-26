@@ -23,15 +23,13 @@ export default function ResCarousel(props) {
   const { costomSettings = {}, withArrows = false,_slidesToShow=4 } = props;
   const settings = {
     dots: false,
-    speed: 2000,
+    speed: 100,
     slidesToShow: _slidesToShow,
     swipeToSlide: true,
-    autoplay: true,
-    autoplaySpeed: 2500,
+    centerMode: true,
+
     dotsClass: "slick-dots slick-thumb",
     arrows: withArrows,
-    
-    infinite: true,
     slidesToScroll: 1,
     initialSlide: 0,
     responsive: [
@@ -52,10 +50,9 @@ export default function ResCarousel(props) {
       {
         breakpoint: 768,
         settings: {
-          className: "center",
-          centerPadding: "60px",
+         
           slidesToShow: 1,
-          centerMode: true,
+          rtl: true,
 
           slidesToScroll: 1,
           initialSlide: 3,
@@ -64,9 +61,8 @@ export default function ResCarousel(props) {
       {
         breakpoint: 640,
         settings: {
-          className: "center",
-          centerMode: true,
-          centerPadding: "60px",
+          rtl: true,
+
             slidesToShow: 1,
             slidesToScroll: 1,
             initialSlide: 0,
@@ -78,9 +74,7 @@ export default function ResCarousel(props) {
             slidesToShow: 1,
             slidesToScroll: 1,
             initialSlide: 0,
-            className: "center",
-            centerMode: true,
-            centerPadding: "60px",
+          
 
           }
         }
