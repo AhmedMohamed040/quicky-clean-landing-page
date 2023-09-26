@@ -1,6 +1,6 @@
 import Container from "./container";
 import Image from "next/image";
-import Link from "next/Link";
+import Link from 'next/link'
 
 import Logo from "../css/svg/logo";
 import Insta from "../css/svg/insta";
