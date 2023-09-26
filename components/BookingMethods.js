@@ -3,7 +3,7 @@ import step1 from "../public/img/img/step1.png";
 import step2 from "../public/img/img/step2.png";
 import step3 from "../public/img/img/step3.png";
 import step4 from "../public/img/img/step4.png";
-
+import ResCarousel from "./responsive-carousel";
 import Image from "next/image";
 const BookingMethods = () => {
   return (
@@ -16,8 +16,9 @@ const BookingMethods = () => {
             </h2>
             <span className="max-w-[50px] max-h-2 bg-[#FFCC66] rounded py-[3px] px-6 md:py-1 md:px-8"></span>
           </div>
-          <div className=" flex justify-center flex-col flex-nowrap sm:flex-row items-center first-letter  gap-0 lg:gap-9 ">
-         
+          <div className="relative flex justify-center flex-col flex-nowrap sm:flex-row items-center first-letter  gap-0 lg:gap-9 ">
+            <ResCarousel>
+
             <div className=" flex flex-col w-full max-w-[300px] min-w-[100px] md:max-w-[250px]  mx-auto relative  ">
               <Image
                 quality={100}
@@ -40,8 +41,9 @@ const BookingMethods = () => {
                 }}
                 // Set the desired height
               />
-            <p className="mt-4 text-center text-gray-800 text-sm font-semibold">اختيار الباقة المناسبة والخدمات الإضافية</p>
-
+              <p className="mt-4 text-center text-gray-800 text-sm font-semibold">
+                اختيار الباقة المناسبة والخدمات الإضافية
+              </p>
             </div>
             <div className=" flex flex-col  w-full max-w-[300px] min-w-[100px] md:max-w-[250px]  mx-auto relative  ">
               <Image
@@ -65,7 +67,9 @@ const BookingMethods = () => {
                 }}
                 // Set the desired height
               />
-                <p className="mt-4 text-center text-gray-800 text-sm font-font-semibold">إختر الوقت والمكان المناسب</p>
+              <p className="mt-4 text-center text-gray-800 text-sm font-font-semibold">
+                إختر الوقت والمكان المناسب
+              </p>
             </div>
             <div className=" flex flex-col  w-full max-w-[300px] min-w-[100px] md:max-w-[250px]  mx-auto relative  ">
               <Image
@@ -89,7 +93,9 @@ const BookingMethods = () => {
                 }}
                 // Set the desired height
               />
-                <p className="mt-4 text-center text-gray-800 text-sm font-semibold">إختيار الخدمات الإضافية والدفع</p>
+              <p className="mt-4 text-center text-gray-800 text-sm font-semibold">
+                إختيار الخدمات الإضافية والدفع
+              </p>
             </div>
             <div className=" flex flex-col  w-full max-w-[300px] min-w-[100px] md:max-w-[250px]  mx-auto relative  ">
               <Image
@@ -113,8 +119,12 @@ const BookingMethods = () => {
                 }}
                 // Set the desired height
               />
-                <p className="mt-4 text-center text-gray-800 text-sm font-semibold">تم الحجز بنجاح</p>
+              <p className="mt-4 text-center text-gray-800 text-sm font-semibold">
+                تم الحجز بنجاح
+              </p>
             </div>
+          
+            </ResCarousel>
           </div>
         </div>
       </Container>
@@ -123,4 +133,3 @@ const BookingMethods = () => {
 };
 
 export default BookingMethods;
- 
