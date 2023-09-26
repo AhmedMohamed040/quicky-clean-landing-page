@@ -1,5 +1,7 @@
 import Container from "./container";
 import Image from "next/image";
+import Link from 'next/link'
+
 import Logo from "../css/svg/logo";
 import Insta from "../css/svg/insta";
 import Vector from "../css/svg/Vector";
@@ -24,10 +26,23 @@ const Footer = () => {
               بسيارتك.
             </p>
             <div className="flex flex-row items-center   gap-3">
+              <Link  href={'https://www.instagram.com/'} target="_blank">
+              
+              </Link>
               <Insta />
+             
+              <Link  href={' https://twitter.com/'} target="_blank">
+
               <Vector />
+              </Link>
+              <Link  href={'https://www.tiktok.com/'} target="_blank">
+                
               <Tik />
+                </Link>
+                <Link  href={'https://www.snapchat.com/'} target="_blank">
+                
               <Snap />
+                </Link>
             </div>
 
           </div>
