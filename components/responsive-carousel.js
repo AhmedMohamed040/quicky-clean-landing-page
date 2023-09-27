@@ -23,64 +23,67 @@ export default function ResCarousel(props) {
   const { costomSettings = {}, withArrows = false,_slidesToShow=4 } = props;
   const settings = {
     dots: false,
-    speed: 2000,
-    slidesToShow: _slidesToShow,
+    speed: 100,
+    slidesToShow: 4,
     swipeToSlide: true,
-    autoplay: true,
-    autoplaySpeed: 2500,
-    dotsClass: "slick-dots slick-thumb",
-    arrows: withArrows,
-    
-    infinite: true,
+    infinite: false,
+    easing: true,
+    arrows: false,
     slidesToScroll: 1,
-    initialSlide: 0,
+    initialSlide: 4,
     responsive: [
-      
-    
+      {
+        breakpoint: 1500,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          initialSlide: 4,
+
+        },
+      },
+      {
+        breakpoint: 1280,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          initialSlide: 4,
+
+        },
+      },
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: (+_slidesToShow - 2),
+          slidesToShow: 2,
           slidesToScroll: 1,
-          initialSlide: 0,
-            className: "center",
-          centerPadding: "60px",
-          centerMode: true,
+          initialSlide: 1,
 
         },
       },
       {
         breakpoint: 768,
         settings: {
-          className: "center",
-          centerPadding: "60px",
-          slidesToShow: 1,
-          centerMode: true,
-
+         
+          slidesToShow: 2,
           slidesToScroll: 1,
-          initialSlide: 3,
+          initialSlide: 4,
         },
       },
       {
         breakpoint: 640,
         settings: {
-          className: "center",
-          centerMode: true,
-          centerPadding: "60px",
-            slidesToShow: 1,
+            slidesToShow: 1.1,
             slidesToScroll: 1,
-            initialSlide: 0,
+            initialSlide: 4,
           }
         },
       {
-        breakpoint: 0,
+        breakpoint: 400,
         settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            initialSlide: 0,
-            className: "center",
-            centerMode: true,
-            centerPadding: "60px",
+          
+          slidesToShow: 1.1,
+          slidesToScroll: 1,
+            initialSlide: 4,
+          
 
           }
         }
@@ -101,7 +104,7 @@ export default function ResCarousel(props) {
     };
    console.log(sliderRef?.current?.props);
     return (
-      <div style={{position:"relative", maxWidth: '100%'}}>
+      <div style={{position:"relative", maxWidth: '100%', }}>
         <Slider ref={sliderRef} {...settings} >
           {props.children}
         </Slider>
