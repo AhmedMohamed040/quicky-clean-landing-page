@@ -32,19 +32,11 @@ export default function ResCarousel(props) {
     slidesToScroll: 1,
     initialSlide: 4,
     responsive: [
-      {
-        breakpoint: 1500,
-        settings: {
-          slidesToShow: 4,
-          slidesToScroll: 1,
-          initialSlide: 4,
-
-        },
-      },
+     
       {
         breakpoint: 1280,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 4,
           slidesToScroll: 1,
           initialSlide: 4,
 
