@@ -71,7 +71,8 @@ export default function ResCarousel(props) {
       {
         breakpoint: 640,
         settings: {
-            slidesToShow: 1,
+            slidesToShow: 1.3,
+            centerPadding: '20px',
             slidesToScroll: 1,
             initialSlide: 4,
           }
@@ -80,7 +81,7 @@ export default function ResCarousel(props) {
         breakpoint: 400,
         settings: {
           
-          slidesToShow: 1,
+          slidesToShow: 1.08,
           slidesToScroll: 1,
             initialSlide: 4,
           
