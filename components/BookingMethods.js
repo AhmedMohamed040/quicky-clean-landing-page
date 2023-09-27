@@ -23,7 +23,7 @@ const BookingMethods = () => {
        
 
         
-            <div className=" flex flex-col  mx-6  w-full max-w-[300px] min-w-[100px] md:max-w-[250px]  relative  ">
+            <div className=" flex flex-col  mx-auto  w-full max-w-[300px] min-w-[100px] md:max-w-[250px]  relative  ">
               <Image
                 quality={100}
                 width={0}
@@ -49,7 +49,7 @@ const BookingMethods = () => {
                 تم الحجز بنجاح
               </p>
             </div>
-            <div className=" flex flex-col  mx-6  w-full max-w-[300px] min-w-[100px] md:max-w-[250px]  relative  ">
+            <div className=" flex flex-col  mx-auto  w-full max-w-[300px] min-w-[100px] md:max-w-[250px]  relative  ">
               <Image
                 quality={100}
                 width={0}
@@ -75,7 +75,7 @@ const BookingMethods = () => {
                 إختيار الخدمات الإضافية والدفع
               </p>
             </div>
-            <div className=" flex flex-col  mx-6  w-full max-w-[300px] min-w-[100px] md:max-w-[250px]  relative  ">
+            <div className=" flex flex-col  mx-auto  w-full max-w-[300px] min-w-[100px] md:max-w-[250px]  relative  ">
               <Image
                 quality={100}
                 width={0}
@@ -102,7 +102,7 @@ const BookingMethods = () => {
               </p>
             </div>
             
-            <div className=" flex flex-col mx-6  w-full max-w-[300px] min-w-[100px] md:max-w-[250px]  relative ">
+            <div className=" flex flex-col mx-auto  w-full max-w-[300px] min-w-[100px] md:max-w-[250px]  relative ">
               <Image
                 quality={100}
                 width={0}
