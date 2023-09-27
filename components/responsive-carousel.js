@@ -24,26 +24,38 @@ export default function ResCarousel(props) {
   const settings = {
     dots: false,
     speed: 100,
-    slidesToShow: _slidesToShow,
+    slidesToShow: 4,
     swipeToSlide: true,
-    centerMode: true,
-
-    dotsClass: "slick-dots slick-thumb",
-    arrows: withArrows,
+    infinite: false,
+    easing: true,
+    arrows: false,
     slidesToScroll: 1,
-    initialSlide: 0,
+    initialSlide: 4,
     responsive: [
-      
-    
+      {
+        breakpoint: 1500,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          initialSlide: 4,
+
+        },
+      },
+      {
+        breakpoint: 1280,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          initialSlide: 4,
+
+        },
+      },
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: (+_slidesToShow - 2),
+          slidesToShow: 2,
           slidesToScroll: 1,
-          initialSlide: 0,
-            className: "center",
-          centerPadding: "60px",
-          centerMode: true,
+          initialSlide: 1,
 
         },
       },
@@ -51,29 +63,26 @@ export default function ResCarousel(props) {
         breakpoint: 768,
         settings: {
          
-          slidesToShow: 1,
-          rtl: true,
-
+          slidesToShow: 2,
           slidesToScroll: 1,
-          initialSlide: 3,
+          initialSlide: 4,
         },
       },
       {
         breakpoint: 640,
         settings: {
-          rtl: true,
-
-            slidesToShow: 1,
+            slidesToShow: 1.1,
             slidesToScroll: 1,
-            initialSlide: 0,
+            initialSlide: 4,
           }
         },
       {
-        breakpoint: 0,
+        breakpoint: 400,
         settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            initialSlide: 0,
+          
+          slidesToShow: 1.1,
+          slidesToScroll: 1,
+            initialSlide: 4,
           
 
           }
@@ -95,7 +104,7 @@ export default function ResCarousel(props) {
     };
    console.log(sliderRef?.current?.props);
     return (
-      <div style={{position:"relative", maxWidth: '100%'}}>
+      <div style={{position:"relative", maxWidth: '100%', }}>
         <Slider ref={sliderRef} {...settings} >
           {props.children}
         </Slider>

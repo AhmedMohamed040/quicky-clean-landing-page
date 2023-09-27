@@ -16,9 +16,14 @@ const BookingMethods = () => {
             </h2>
             <span className="max-w-[50px] max-h-2 bg-[#FFCC66] rounded py-[3px] px-6 md:py-1 md:px-8"></span>
           </div>
-          <div   className="relative flex justify-center flex-col flex-nowrap sm:flex-row-reverse items-center first-letter  gap-0 lg:gap-9 ">
+          <div   className="relative flex  justify-center flex-row-reverse flex-nowrap sm:flex-row items-center first-letter  gap-0 lg:gap-9 ">
             <ResCarousel>
-            <div className=" flex flex-col  w-full max-w-[300px] min-w-[100px] md:max-w-[250px]  mx-auto relative  ">
+        
+          
+       
+
+        
+            <div className=" flex flex-col  mx-8  w-full max-w-[300px] min-w-[100px] md:max-w-[250px]  relative  ">
               <Image
                 quality={100}
                 width={0}
@@ -44,7 +49,7 @@ const BookingMethods = () => {
                 تم الحجز بنجاح
               </p>
             </div>
-            <div className=" flex flex-col  w-full max-w-[300px] min-w-[100px] md:max-w-[250px]  mx-auto relative  ">
+            <div className=" flex flex-col  mx-8  w-full max-w-[300px] min-w-[100px] md:max-w-[250px]  relative  ">
               <Image
                 quality={100}
                 width={0}
@@ -70,7 +75,7 @@ const BookingMethods = () => {
                 إختيار الخدمات الإضافية والدفع
               </p>
             </div>
-            <div className=" flex flex-col  w-full max-w-[300px] min-w-[100px] md:max-w-[250px]  mx-auto relative  ">
+            <div className=" flex flex-col  mx-8  w-full max-w-[300px] min-w-[100px] md:max-w-[250px]  relative  ">
               <Image
                 quality={100}
                 width={0}
@@ -92,12 +97,12 @@ const BookingMethods = () => {
                 }}
                 // Set the desired height
               />
-              <p className="mt-4 text-center text-gray-800 text-sm font-font-semibold">
+              <p className="mt-4 text-center text-gray-800 text-sm  font-semibold">
                 إختر الوقت والمكان المناسب
               </p>
             </div>
-
-            <div className=" flex flex-col w-full max-w-[300px] min-w-[100px] md:max-w-[250px]  mx-auto relative  ">
+            
+            <div className=" flex flex-col mx-8  w-full max-w-[300px] min-w-[100px] md:max-w-[250px]  relative ">
               <Image
                 quality={100}
                 width={0}
@@ -123,9 +128,6 @@ const BookingMethods = () => {
                 اختيار الباقة المناسبة والخدمات الإضافية
               </p>
             </div>
-        
-         
-         
             </ResCarousel>
           </div>
         </div>
