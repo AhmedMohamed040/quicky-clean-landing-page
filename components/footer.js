@@ -28,8 +28,8 @@ const Footer = () => {
             <div className="flex flex-row items-center order-1  gap-3">
               <Link  href={'https://www.instagram.com/'} target="_blank">
               
-              </Link>
               <Insta />
+              </Link>
              
               <Link  href={' https://twitter.com/'} target="_blank">
 
