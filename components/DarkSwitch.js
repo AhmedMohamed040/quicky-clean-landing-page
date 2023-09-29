@@ -15,7 +15,7 @@ const ThemeChanger = () => {
       {theme === "dark" ? (
         <button
           onClick={() => setTheme("light")}
-          className="text-gray-400 rounded-full outline-none focus:outline-none">
+          className="text-gray-500 rounded-full outline-none focus:outline-none">
           <span className="sr-only">Light Mode</span>
 
           <svg
