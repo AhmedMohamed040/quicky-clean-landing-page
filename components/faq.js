@@ -35,7 +35,7 @@ const Faq = () => {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
+    question: "Is this template completely free to use ?",
     answer: "Yes, this template is completely free to use.",
   },
   {
