@@ -26,7 +26,7 @@ const Testimonials  = () => {
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
+            <p className="text-3xl leading-normal ">
               Make sure you only pick the <Mark>right sentence</Mark>
               to keep it short and simple.
             </p>
@@ -40,7 +40,7 @@ const Testimonials  = () => {
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-12 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
+            <p className="text-3xl leading-normal ">
               This is an <Mark>awesome</Mark>  page template I&apos;ve seen. I
               would use this for anything.
             </p>
