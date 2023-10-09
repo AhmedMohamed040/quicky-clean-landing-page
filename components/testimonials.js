@@ -20,14 +20,14 @@ const Testimonials  = () => {
             <Avatar
               image={userOneImg}
               name="Sarah Steiner"
-              title="VP Sales at Google"
+              title="VIP Sales at Google"
             />
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-200 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-3xl leading-normal ">
-              Make sure you only pick the <Mark>right sentence</Mark>
+              Make sure you only pick the <Mark> right sentence</Mark>
               to keep it short and simple.
             </p>
 
