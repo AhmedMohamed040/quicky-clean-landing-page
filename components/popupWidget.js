@@ -138,7 +138,7 @@ const PopupWidget = () => {
                       <div className="mb-4">
                         <label
                           htmlFor="full_name"
-                          className="block mb-2 text-sm text-gray-600 dark:text-gray-300">
+                          className="block mb-3 text-sm text-gray-600 dark:text-gray-300">
                           Full Name
                         </label>
                         <input
