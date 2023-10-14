@@ -57,7 +57,7 @@ function Benefit(props) {
   return (
     <>
       <div className="flex items-start mt-2 space-x-2">
-        <div className="flex items-center justify-center flex-shrink-0 mt-1 bg-indigo-400 rounded-md w-11 h-11 ">
+        <div className="flex items-center justify-center flex-shrink-0 mt-1 bg-indigo-500 rounded-md w-11 h-11 ">
           {React.cloneElement(props.icon, {
             className: "w-6 h-6 text-indigo-400",
           })}
