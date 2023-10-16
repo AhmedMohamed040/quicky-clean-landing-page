@@ -50,7 +50,7 @@ const faqdata = [
   {
     question: "Do you offer technical support ? ",
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support .",
+      "No , we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support .",
   },
 ];
 
