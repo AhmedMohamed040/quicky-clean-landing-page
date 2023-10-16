@@ -10,7 +10,7 @@ const Video = () => {
           onClick={() => setPlayVideo(!playVideo)}
           className="relative bg-indigo-500 cursor-pointer aspect-w-16 aspect-h-9 bg-gradient-to-tr from-purple-400 to-indigo-700">
           {!playVideo && (
-            <button className="absolute inset-auto w-17 h-17 text-white transform -translate-x-1/2 -translate-y-1/2 lg:w-28 lg:h-28 top-1/2 left-1/2">
+            <button className="absolute inset-auto w-10 h-10 text-white transform -translate-x-1/2 -translate-y-1/2 lg:w-28 lg:h-28 top-1/2 left-1/2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-17 h-17  lg:w-28 lg:h-28"
