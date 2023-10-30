@@ -19,7 +19,14 @@ const Footer = () => {
         <div className=" pt-14 gap-5  sm:gap-0 grid grid-cols-1 md:grid-cols-3 text-center w-full">
       
           <div className="grid gap-5 justify-items-center md:justify-items-start text-center md:text-right ">
+            
             <Logo  width={'125'}  />
+            <h3  className="text-lg	cursor-pointer hover:text-gray-500 font-bold  p-0 m-0 text-gray-800 lg:leading-tight md:text-xl ">
+              <Link href="/privacy">
+
+              سياسة الخصوصية
+              </Link>
+            </h3>
             <p className="text-sm hidden md:block   text-gray-500 font-semibold line-clamp-6  max-w-[300px] break-words	">
               لإننا نهتم براحتك وأمان سيارتك.، قُمنا بتطوير نظام آمن وموثوق
               للتحقق من خلفيات فريقنا، حتى تكون على ثقة تامة في اختيارنا للعناية
@@ -50,7 +57,9 @@ const Footer = () => {
 
           <div className="grid gap-5 justify-items-center justify-center   md:justify-items-start text-center md:text-right ">
             <h2 className="text-lg	 font-bold  p-0 m-0 text-gray-800 lg:leading-tight md:text-xl ">
+            <Link className="flex items-center justify-center" href={'/privacy'} passHref={true}>
               الدعم والمساعدة
+              </Link>
             </h2>
         
               <Link className="flex items-center justify-center" href="https://web.whatsapp.com/" target="_blank" >

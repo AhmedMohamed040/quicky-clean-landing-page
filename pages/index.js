@@ -29,7 +29,7 @@ const Home = () => {
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;500;600&display=swap" rel="stylesheet" />
         <meta
           name="description"
-          content="Symlink is a creative agency specializing in web, branding and digital marketing."
+          content="Quick Clean is a creative agency specializing in web, branding and digital marketing."
         />
         <link rel="icon" href="/logo.svg" />
       </Head>
