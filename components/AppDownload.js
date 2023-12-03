@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Container from "./container";
 import benefitOneImg from "../public/img/benefit-one.png";
+import Link from "next/link";
 
 import  GooglePlayIcon  from "../css/svg/googlePlay";
 import AppleIcon from "../css/svg/appleIcon";
@@ -19,8 +20,16 @@ const AppDownload = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-3 justify-center items-center">
-              <GooglePlayIcon />
-              <AppleIcon />
+            <Link href="https://play.google.com/store/apps/details?id=com.quickyclean.quickycleanapp" className="font-bold ">
+              <span style={{}}>
+                <GooglePlayIcon style={{ backgroundColor: "red" }} />
+              </span>
+            </Link>
+            <Link href="https://apps.apple.com/us/app/quicky-clean/id6470739682?platform=iphone" className=" font-bold ">
+              <span>
+                <AppleIcon />
+              </span>
+            </Link>
             </div>
        </div>
       </Container>

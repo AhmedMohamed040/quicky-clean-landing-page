@@ -62,7 +62,7 @@ const Footer = () => {
               </Link>
             </h2>
         
-              <Link className="flex items-center justify-center" href="https://web.whatsapp.com/" target="_blank" >
+              <Link className="flex items-center justify-center" href="	https://wa.me/55584652" target="_blank" >
 
               <Whatsapp />
               <h2 className="text-sm px-2 text-gray-500 font-semibold  p-0 m-0 lg:leading-tight md:text-md ">
@@ -72,8 +72,8 @@ const Footer = () => {
             <Link className="flex items-center justify-center" href="tel:+96655584652" target="_blank">
 
               <Call />
-              <h2 className="text-sm px-2 text-gray-500 font-semibold  p-0 m-0 lg:leading-tight md:text-md ">
-              5558652 966+ 
+              <h2 dir="ltr" className="text-sm px-2 text-gray-500 font-semibold  p-0 m-0 lg:leading-tight md:text-md ">
+              +966 543683341  
               </h2>
               </Link>
             <a className="flex items-center justify-center" href="mailto:admin@quickyclean.com.sa" target="_blank">
