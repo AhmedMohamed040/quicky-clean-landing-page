@@ -20,12 +20,12 @@ const AppDownload = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-3 justify-center items-center">
-            <Link href="https://play.google.com/store/apps/details?id=com.quickyclean.quickycleanapp" target="_blank" className="font-bold ">
+            <Link href="https://play.google.com/store/apps/details?id=com.quickyclean.quickycleanapp" passHref={true} target="_blank" className="font-bold ">
               <span style={{}}>
                 <GooglePlayIcon style={{ backgroundColor: "red" }} />
               </span>
             </Link>
-            <Link href="https://apps.apple.com/us/app/quicky-clean/id6470739682?platform=iphone" target="_blank" className=" font-bold ">
+            <Link href="https://apps.apple.com/us/app/quicky-clean/id6470739682?platform=iphone" passHref={true} target="_blank" className=" font-bold ">
               <span>
                 <AppleIcon />
               </span>
