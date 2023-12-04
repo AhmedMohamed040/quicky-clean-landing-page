@@ -27,12 +27,12 @@ const Hero = () => {
             </h5>
           </div>
           <div class=" gap-4 relative text-center	 flex sm:flex-row flex-col  items-center">
-            <Link href="https://play.google.com/store/apps/details?id=com.quickyclean.quickycleanapp" className="font-bold ">
+            <Link href="https://play.google.com/store/apps/details?id=com.quickyclean.quickycleanapp"  target="_blank" className="font-bold ">
               <span style={{}}>
                 <GooglePlayIcon style={{ backgroundColor: "red" }} />
               </span>
             </Link>
-            <Link href="https://apps.apple.com/us/app/quicky-clean/id6470739682?platform=iphone" className=" font-bold ">
+            <Link href="https://apps.apple.com/us/app/quicky-clean/id6470739682?platform=iphone"  target="_blank" className=" font-bold ">
               <span>
                 <AppleIcon />
               </span>
