@@ -27,7 +27,7 @@ const Hero = () => {
             </h5>
           </div>
           <div class=" gap-4 relative text-center	 flex sm:flex-row flex-col  items-center">
-            <Link href="https://play.google.com/store/apps/details?id=com.quickyclean.quickycleanapp" passHref={true}  target="_blank" className="font-bold cursor-pointer">
+            <Link  href="https://play.google.com/store/apps/details?id=com.quickyclean.quickycleanapp" passHref={true}  target="_blank" className="font-bold cursor-pointer">
               <span style={{}}>
                 <GooglePlayIcon style={{ backgroundColor: "red" }} />
               </span>
