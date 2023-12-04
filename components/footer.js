@@ -62,18 +62,18 @@ const Footer = () => {
               </Link>
             </h2>
         
-              <Link passHref={true} className="flex items-center justify-center" href="	https://wa.me/55584652" target="_blank" >
+              <Link passHref={true} className="flex items-center justify-center" href="https://wa.me/966543683341" target="_blank" >
 
               <Whatsapp />
               <h2 className="text-sm px-2 text-gray-500 font-semibold  p-0 m-0 lg:leading-tight md:text-md ">
               أبدء محادثة
               </h2>
               </Link>
-            <Link passHref={true} className="flex items-center justify-center" href="tel:+96655584652" target="_blank">
+            <Link passHref={true} className="flex items-center justify-center" href="tel:00966543683341" target="_blank">
 
               <Call />
               <h2 dir="ltr" className="text-sm px-2 text-gray-500 font-semibold  p-0 m-0 lg:leading-tight md:text-md ">
-              +966 543683341  
+              +966543683341  
               </h2>
               </Link>
             <a className="flex items-center justify-center" href="mailto:admin@quickyclean.com.sa" target="_blank">
