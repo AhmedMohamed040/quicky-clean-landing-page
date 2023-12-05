@@ -33,7 +33,7 @@ const Footer = () => {
               بسيارتك.
             </p>
             <div className="flex flex-row items-center order-1  gap-3">
-              <Link  href={'https://www.tiktok.com/@quickyclean.sa'} target="_blank">
+              <Link  href={'https://www.instagram.com/quickyclean.sa'} target="_blank">
               
               <Insta />
               </Link>
